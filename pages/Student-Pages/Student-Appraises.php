@@ -38,7 +38,7 @@ require('Student-Headers.php');
                                                                         <div class="card">
                                                                             <div class="card-header">
                                                                                 <div class="col-sm-10">
-                                                                                    <h2>Unappraisad Courses</h2>
+                                                                                    <h2>Unappraised Courses</h2>
                                                                                 </div>
                                                                             </div>
 
@@ -104,7 +104,7 @@ require('Student-Headers.php');
                                                                         <div class="card">
                                                                             <div class="card-header">
                                                                                 <div class="col-sm-10">
-                                                                                    <h2>Appraisad Courses</h2>
+                                                                                    <h2>Appraised Courses</h2>
                                                                                 </div>
                                                                             </div>
                                                                             <div class="card-body">

@@ -11,6 +11,16 @@ function __construct(string $uName, string $uPass){
   $this->conns = new dbConn();
 }
 
+//getters
+public function getUsername(){
+  return $this->username;
+}
+
+//setters
+public function setUsername($username){
+  $this->username = $username;
+}
+
 function Login(){
 
   $conn = $this->conns->connection();

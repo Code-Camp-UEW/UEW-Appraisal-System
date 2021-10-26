@@ -15,7 +15,7 @@ class updating{
         $conn = $this->conns->connection();
         
         if($conn->query($this->queries) === TRUE){
-            echo '<script>alert("Data Inserted")</script>';
+            echo '<script>alert("Data Updatad")</script>';
         }
         else{
             echo '<script>alert("Error: ")</script>'. $this->queries;

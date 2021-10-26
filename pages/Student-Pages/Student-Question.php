@@ -51,7 +51,7 @@ require('..\..\headerPage.php');
                                                                         <br />
                                                                     <ul class="timeline">
                                                                     <div class="col-sm-10">
-                                                                        <h4>1.	Name of Lecturer:</h4>
+                                                                        <h4>1. Name of Lecturer:</h4>
                                                                             <input type="text" class="form-control">
                                                                             </div>
                                                                         <br />
@@ -59,61 +59,61 @@ require('..\..\headerPage.php');
                                                                      <div class="col-sm-10">
                                                                         
                                                                          <div class="text">
-                                                                         <h4>2.	Status of Lecturer: </h4>
-                                                                             <input type="radio" class="radio-but" value="Full-Time"> Full-Time 
-                                                                             <input type="radio" class="radio-but" value="Part-Time"> Part-Time
+                                                                         <h4>2. Status of Lecturer: </h4>
+                                                                            <input type="radio" class="radio-but" value="Full-Time"> Full-Time 
+                                                                            <input type="radio" class="radio-but" value="Part-Time"> Part-Time
                                                                            </div>
                                                                      </div>
                                                                         <br />
                                                                     <div class="col-sm-10">
-                                                                        <h4>3.	Department of Lecturer: </h4>
-                                                                        <asp:TextBox ID="TextBox2" class="form-control" runat="server"></asp:TextBox>
-                                                                            </div>
+                                                                        <h4>3. Department of Lecturer: </h4>
+                                                                        <input type="text" class="form-control">
+                                                                    </div>
                                                                         <br />
                                                                     <div class="col-sm-10">
-                                                                        <h4>4.	Course Code & Title:  </h4>
-                                                                        <asp:TextBox ID="TextBox3" class="form-control" runat="server"></asp:TextBox>
+                                                                        <h4>4. Course Code & Title:  </h4>
+                                                                        <input type="text" class="form-control">
                                                                             </div>
                                                                         <br />
-                                                                   <div class="col-sm-10">
-                                                                        <h4>5.	Nature of Course:</h4>
+                                                                   <div class="col-lg-10">
+                                                                        <h4>5. Nature of Course:</h4>
                                                                         <div class="text">
-                                                                            <asp:RadioButton ID="RadioButton27" CssClass="radio-but" GroupName="ST" runat="server" Text="Lectures only " /> 
-                                                                            <asp:RadioButton ID="RadioButton25" CssClass="radio-but" GroupName="ST" runat="server" Text="Practical only  " /> 
-                                                                            <asp:RadioButton ID="RadioButton26" CssClass="radio-but" GroupName="ST" runat="server" Text="Both Lectures & Practical " />
-                                                                          </div>
+                                                                            <input type="radio" class="radio-but" value="Full-Time"> Lectures only 
+                                                                            <input type="radio" class="radio-but" value="Part-Time"> Practical only
+                                                                            <input type="radio" class="radio-but" value="Full-Time"> Both Lectures & Practical
+                                                                        </div>
                                                                    </div>
                                                                         <br />
                                                                      
                                                                      <div class="col-sm-10">
                                                                         <h4>6.	Academic Year: </h4>
-                                                                        <asp:TextBox ID="TextBox4" class="form-control" runat="server"></asp:TextBox>
+                                                                        <input type="text" class="form-control">
                                                                             </div>
                                                                         <br />
                                                                      <div class="col-sm-10">
                                                                         <h4>7.	Semester: </h4>
                                                                         <div class="text">
-                                                                            <asp:RadioButton ID="RadioButton21" CssClass="radio-but" GroupName="ST" runat="server" Text="First " /> 
-                                                                            <asp:RadioButton ID="RadioButton22" CssClass="radio-but" GroupName="ST" runat="server" Text="Second " /> 
-                                                                            </div>
+                                                                            <input type="radio" class="radio-but" value="Full-Time"> First 
+                                                                            <input type="radio" class="radio-but" value="Part-Time"> Second 
+                                                                        </div>
                                                                    </div>
                                                                         <br />
                                                                     <div class="col-sm-10">
                                                                         <h4>8.	Sex of Student: </h4>
                                                                         <div class="text">
-                                                                            <asp:RadioButton ID="RadioButton28" CssClass="radio-but" GroupName="ST" runat="server" Text="Male " /> 
-                                                                            <asp:RadioButton ID="RadioButton29" CssClass="radio-but" GroupName="ST" runat="server" Text="Female " /> 
-                                                                            </div>
+                                                                            <input type="radio" class="radio-but" value="Full-Time"> Male 
+                                                                            <input type="radio" class="radio-but" value="Part-Time"> Female
+                                                                        </div>
                                                                    </div>
                                                                         <br />
                                                                    <div class="col-sm-10">
                                                                         <h4>9.	Level of Student:  </h4>
                                                                         <div class="text">
-                                                                            <asp:RadioButton ID="RadioButton30" CssClass="radio-but" GroupName="ST" runat="server" Text="100 " /> 
-                                                                            <asp:RadioButton ID="RadioButton31" CssClass="radio-but" GroupName="ST" runat="server" Text="200 " /> 
-                                                                            <asp:RadioButton ID="RadioButton32" CssClass="radio-but" GroupName="ST" runat="server" Text="300 " /> 
-                                                                            <asp:RadioButton ID="RadioButton34" CssClass="radio-but" GroupName="ST" runat="server" Text="400 " /> 
-                                                                            </div>
+                                                                            <input type="radio" class="radio-but" value="Full-Time"> 100 
+                                                                            <input type="radio" class="radio-but" value="Part-Time"> 200
+                                                                            <input type="radio" class="radio-but" value="Full-Time"> 300 
+                                                                            <input type="radio" class="radio-but" value="Part-Time"> 400
+                                                                        </div>
                                                                    </div>
                                                                         <br />
                                                                    
@@ -126,65 +126,294 @@ require('..\..\headerPage.php');
                                                                         <ul class="timeline">
                                                                             <li>
                                                                                 <div class="primary"></div>
-                                                                                <h4 class="m-t-5">1) Youtube, a video-sharing website, goes live</h4>
-                                                                                 <div class="text-md-right">
-                                                                                        <asp:RadioButton ID="RadioButton1" CssClass="radio-but" GroupName="Q1" runat="server" Text="Strongly Agree" /> 
-                                                                                        <asp:RadioButton ID="RadioButton2" CssClass="radio-but" GroupName="Q1" runat="server" Text="Agree" />
-                                                                                        <asp:RadioButton ID="RadioButton3" CssClass="radio-but" GroupName="Q1" runat="server" Text="Disagree" />
-                                                                                        <asp:RadioButton ID="RadioButton4" CssClass="radio-but" GroupName="Q1" runat="server" Text="Strongly Disgree" />
-                                                                                    </div>
+                                                                                <h4 class="m-t-5">10. Lecturer provided a comprehensive outline at the beginning of the course</h4>
+                                                                                <div class="text-md-right">
+                                                                                    <input type="radio" class="radio-but" value="Full-Time"> Strongly Agree 
+                                                                                    <input type="radio" class="radio-but" value="Part-Time"> Agree
+                                                                                    <input type="radio" class="radio-but" value="Full-Time"> Disagree 
+                                                                                    <input type="radio" class="radio-but" value="Part-Time"> Strongly Disgree
+                                                                                </div>
                                                                             </li>
                                                                             <li>
                                                                                 <div class="primary"></div>
-                                                                                <h4 class="m-t-5">2) Youtube, a video-sharing website, goes live</h4>
-                                                                                 <div class="text-md-right">
-                                                                                        <asp:RadioButton ID="RadioButton5" CssClass="radio-but" GroupName="Q2" runat="server" Text="Strongly Agree" /> 
-                                                                                        <asp:RadioButton ID="RadioButton6" CssClass="radio-but" GroupName="Q2" runat="server" Text="Agree" />
-                                                                                        <asp:RadioButton ID="RadioButton7" CssClass="radio-but" GroupName="Q2" runat="server" Text="Disagree" />
-                                                                                        <asp:RadioButton ID="RadioButton8" CssClass="radio-but" GroupName="Q2" runat="server" Text="Strongly Disgree" />
-                                                                                    </div>
+                                                                                <h4 class="m-t-5">11. The course content was taught based on the outline provided</h4>
+                                                                                <div class="text-md-right">
+                                                                                    <input type="radio" class="radio-but" value="Full-Time"> Strongly Agree 
+                                                                                    <input type="radio" class="radio-but" value="Part-Time"> Agree
+                                                                                    <input type="radio" class="radio-but" value="Full-Time"> Disagree 
+                                                                                    <input type="radio" class="radio-but" value="Part-Time"> Strongly Disgree
+                                                                                </div>
                                                                             </li>
 
                                                                              <li>
                                                                                 <div class=" primary"></div>
-                                                                                <h4 class="m-t-5">3) Youtube, a video-sharing website, goes live</h4>
-                                                                                 <div class="text-md-right">
-                                                                                        <asp:RadioButton ID="RadioButton9" CssClass="radio-but" GroupName="Q3" runat="server" Text="Strongly Agree" /> 
-                                                                                        <asp:RadioButton ID="RadioButton10" CssClass="radio-but" GroupName="Q3" runat="server" Text="Agree" />
-                                                                                        <asp:RadioButton ID="RadioButton11" CssClass="radio-but" GroupName="Q3" runat="server" Text="Disagree" />
-                                                                                        <asp:RadioButton ID="RadioButton12" CssClass="radio-but" GroupName="Q3" runat="server" Text="Strongly Disgree" />
-                                                                                    </div>
+                                                                                <h4 class="m-t-5">12. The course content has been adequately covered this semester</h4>
+                                                                                <div class="text-md-right">
+                                                                                    <input type="radio" class="radio-but" value="Full-Time"> Strongly Agree 
+                                                                                    <input type="radio" class="radio-but" value="Part-Time"> Agree
+                                                                                    <input type="radio" class="radio-but" value="Full-Time"> Disagree 
+                                                                                    <input type="radio" class="radio-but" value="Part-Time"> Strongly Disgree
+                                                                                </div>
                                                                             </li>
                                                                            <li>
                                                                                 <div class=" primary"></div>
-                                                                                <h4 class="m-t-5">4) Youtube, a video-sharing website, goes live</h4>
-                                                                                 <div class="text-md-right">
-                                                                                        <asp:RadioButton ID="RadioButton13" CssClass="radio-but" GroupName="Q4" runat="server" Text="Strongly Agree" /> 
-                                                                                        <asp:RadioButton ID="RadioButton14" CssClass="radio-but" GroupName="Q4" runat="server" Text="Agree" />
-                                                                                        <asp:RadioButton ID="RadioButton15" CssClass="radio-but" GroupName="Q4" runat="server" Text="Disagree" />
-                                                                                        <asp:RadioButton ID="RadioButton16" CssClass="radio-but" GroupName="Q4" runat="server" Text="Strongly Disgree" />
-                                                                                    </div>
+                                                                                <h4 class="m-t-5">13. The course is relevant to my programme of study</h4>
+                                                                                <div class="text-md-right">
+                                                                                    <input type="radio" class="radio-but" value="Full-Time"> Strongly Agree 
+                                                                                    <input type="radio" class="radio-but" value="Part-Time"> Agree
+                                                                                    <input type="radio" class="radio-but" value="Full-Time"> Disagree 
+                                                                                    <input type="radio" class="radio-but" value="Part-Time"> Strongly Disgree
+                                                                                </div>
                                                                             </li>
+                                                                            <li>
+                                                                                <div class=" primary"></div>
+                                                                                <h4 class="m-t-5">14. The Lecturer attended class regularly</h4>
+                                                                                <div class="text-md-right">
+                                                                                    <input type="radio" class="radio-but" value="Full-Time"> Strongly Agree 
+                                                                                    <input type="radio" class="radio-but" value="Part-Time"> Agree
+                                                                                    <input type="radio" class="radio-but" value="Full-Time"> Disagree 
+                                                                                    <input type="radio" class="radio-but" value="Part-Time"> Strongly Disgree
+                                                                                </div>
+                                                                            </li>
+                                                                            <li>
+                                                                                <div class="primary"></div>
+                                                                                <h4 class="m-t-5">15. The Lecturer was punctual to class</h4>
+                                                                                <div class="text-md-right">
+                                                                                    <input type="radio" class="radio-but" value="Full-Time"> Strongly Agree 
+                                                                                    <input type="radio" class="radio-but" value="Part-Time"> Agree
+                                                                                    <input type="radio" class="radio-but" value="Full-Time"> Disagree 
+                                                                                    <input type="radio" class="radio-but" value="Part-Time"> Strongly Disgree
+                                                                                </div>
+                                                                            </li>
+                                                                            <li>
+                                                                                <div class="primary"></div>
+                                                                                <h4 class="m-t-5">16. The Lecturer used class time fully to promote learning</h4>
+                                                                                <div class="text-md-right">
+                                                                                    <input type="radio" class="radio-but" value="Full-Time"> Strongly Agree 
+                                                                                    <input type="radio" class="radio-but" value="Part-Time"> Agree
+                                                                                    <input type="radio" class="radio-but" value="Full-Time"> Disagree 
+                                                                                    <input type="radio" class="radio-but" value="Part-Time"> Strongly Disgree
+                                                                                </div>
+                                                                            </li>
+
                                                                              <li>
                                                                                 <div class=" primary"></div>
-                                                                                <h4 class="m-t-5">2) Youtube, a video-sharing website, goes live</h4>
-                                                                                 <div class="text-md-right">
-                                                                                        <asp:RadioButton ID="RadioButton17" CssClass="radio-but" GroupName="Q1" runat="server" Text="Strongly Agree" /> 
-                                                                                        <asp:RadioButton ID="RadioButton18" CssClass="radio-but" GroupName="Q1" runat="server" Text="Agree" />
-                                                                                        <asp:RadioButton ID="RadioButton19" CssClass="radio-but" GroupName="Q1" runat="server" Text="Disagree" />
-                                                                                        <asp:RadioButton ID="RadioButton20" CssClass="radio-but" GroupName="Q1" runat="server" Text="Strongly Disgree" />
-                                                                                    </div>
+                                                                                <h4 class="m-t-5">17. The Lecturer gave adequate number of assignments and quizzes (minimum of 2)</h4>
+                                                                                <div class="text-md-right">
+                                                                                    <input type="radio" class="radio-but" value="Full-Time"> Strongly Agree 
+                                                                                    <input type="radio" class="radio-but" value="Part-Time"> Agree
+                                                                                    <input type="radio" class="radio-but" value="Full-Time"> Disagree 
+                                                                                    <input type="radio" class="radio-but" value="Part-Time"> Strongly Disgree
+                                                                                </div>
+                                                                            </li>
+                                                                           <li>
+                                                                                <div class=" primary"></div>
+                                                                                <h4 class="m-t-5">18. Assignments/quizzes were promptly marked and returned</h4>
+                                                                                <div class="text-md-right">
+                                                                                    <input type="radio" class="radio-but" value="Full-Time"> Strongly Agree 
+                                                                                    <input type="radio" class="radio-but" value="Part-Time"> Agree
+                                                                                    <input type="radio" class="radio-but" value="Full-Time"> Disagree 
+                                                                                    <input type="radio" class="radio-but" value="Part-Time"> Strongly Disgree
+                                                                                </div>
+                                                                            </li>
+                                                                            <li>
+                                                                                <div class=" primary"></div>
+                                                                                <h4 class="m-t-5">19. Assignments/quizzes were subsequently discussed in class or at tutorials</h4>
+                                                                                <div class="text-md-right">
+                                                                                    <input type="radio" class="radio-but" value="Full-Time"> Strongly Agree 
+                                                                                    <input type="radio" class="radio-but" value="Part-Time"> Agree
+                                                                                    <input type="radio" class="radio-but" value="Full-Time"> Disagree 
+                                                                                    <input type="radio" class="radio-but" value="Part-Time"> Strongly Disgree
+                                                                                </div>
+                                                                            </li>
+                                                                            <li>
+                                                                                <div class="primary"></div>
+                                                                                <h4 class="m-t-5">20. The Lecturer was genuinely concerned with students’ progress</h4>
+                                                                                <div class="text-md-right">
+                                                                                    <input type="radio" class="radio-but" value="Full-Time"> Strongly Agree 
+                                                                                    <input type="radio" class="radio-but" value="Part-Time"> Agree
+                                                                                    <input type="radio" class="radio-but" value="Full-Time"> Disagree 
+                                                                                    <input type="radio" class="radio-but" value="Part-Time"> Strongly Disgree
+                                                                                </div>
+                                                                            </li>
+                                                                            <li>
+                                                                                <div class="primary"></div>
+                                                                                <h4 class="m-t-5">21. The Lecturer demonstrated knowledge of the subject matter</h4>
+                                                                                <div class="text-md-right">
+                                                                                    <input type="radio" class="radio-but" value="Full-Time"> Strongly Agree 
+                                                                                    <input type="radio" class="radio-but" value="Part-Time"> Agree
+                                                                                    <input type="radio" class="radio-but" value="Full-Time"> Disagree 
+                                                                                    <input type="radio" class="radio-but" value="Part-Time"> Strongly Disgree
+                                                                                </div>
+                                                                            </li>
+
+                                                                             <li>
+                                                                                <div class=" primary"></div>
+                                                                                <h4 class="m-t-5">22. The Lecturer’s delivery was systematic and well organised</h4>
+                                                                                <div class="text-md-right">
+                                                                                    <input type="radio" class="radio-but" value="Full-Time"> Strongly Agree 
+                                                                                    <input type="radio" class="radio-but" value="Part-Time"> Agree
+                                                                                    <input type="radio" class="radio-but" value="Full-Time"> Disagree 
+                                                                                    <input type="radio" class="radio-but" value="Part-Time"> Strongly Disgree
+                                                                                </div>
+                                                                            </li>
+                                                                           <li>
+                                                                                <div class=" primary"></div>
+                                                                                <h4 class="m-t-5">23. The Lecturer clearly presented ideas and concepts of topics</h4>
+                                                                                <div class="text-md-right">
+                                                                                    <input type="radio" class="radio-but" value="Full-Time"> Strongly Agree 
+                                                                                    <input type="radio" class="radio-but" value="Part-Time"> Agree
+                                                                                    <input type="radio" class="radio-but" value="Full-Time"> Disagree 
+                                                                                    <input type="radio" class="radio-but" value="Part-Time"> Strongly Disgree
+                                                                                </div>
+                                                                            </li>
+                                                                            <li>
+                                                                                <div class=" primary"></div>
+                                                                                <h4 class="m-t-5">24. The Lecturer encouraged critical thinking</h4>
+                                                                                <div class="text-md-right">
+                                                                                    <input type="radio" class="radio-but" value="Full-Time"> Strongly Agree 
+                                                                                    <input type="radio" class="radio-but" value="Part-Time"> Agree
+                                                                                    <input type="radio" class="radio-but" value="Full-Time"> Disagree 
+                                                                                    <input type="radio" class="radio-but" value="Part-Time"> Strongly Disgree
+                                                                                </div>
+                                                                            </li>
+                                                                            <li>
+                                                                                <div class="primary"></div>
+                                                                                <h4 class="m-t-5">25. The Lecturer delivered at an appropriate pace/speed</h4>
+                                                                                <div class="text-md-right">
+                                                                                    <input type="radio" class="radio-but" value="Full-Time"> Strongly Agree 
+                                                                                    <input type="radio" class="radio-but" value="Part-Time"> Agree
+                                                                                    <input type="radio" class="radio-but" value="Full-Time"> Disagree 
+                                                                                    <input type="radio" class="radio-but" value="Part-Time"> Strongly Disgree
+                                                                                </div>
+                                                                            </li>
+                                                                            <li>
+                                                                                <div class="primary"></div>
+                                                                                <h4 class="m-t-5">26. The Lecturer made room for questions and expression of opinions</h4>
+                                                                                <div class="text-md-right">
+                                                                                    <input type="radio" class="radio-but" value="Full-Time"> Strongly Agree 
+                                                                                    <input type="radio" class="radio-but" value="Part-Time"> Agree
+                                                                                    <input type="radio" class="radio-but" value="Full-Time"> Disagree 
+                                                                                    <input type="radio" class="radio-but" value="Part-Time"> Strongly Disgree
+                                                                                </div>
+                                                                            </li>
+
+                                                                             <li>
+                                                                                <div class=" primary"></div>
+                                                                                <h4 class="m-t-5">27. The Lecturer responded positively to students’ questions and concerns</h4>
+                                                                                <div class="text-md-right">
+                                                                                    <input type="radio" class="radio-but" value="Full-Time"> Strongly Agree 
+                                                                                    <input type="radio" class="radio-but" value="Part-Time"> Agree
+                                                                                    <input type="radio" class="radio-but" value="Full-Time"> Disagree 
+                                                                                    <input type="radio" class="radio-but" value="Part-Time"> Strongly Disgree
+                                                                                </div>
+                                                                            </li>
+                                                                           <li>
+                                                                                <div class=" primary"></div>
+                                                                                <h4 class="m-t-5">28. The Lecturer effectively communicated what s/he was teaching</h4>
+                                                                                <div class="text-md-right">
+                                                                                    <input type="radio" class="radio-but" value="Full-Time"> Strongly Agree 
+                                                                                    <input type="radio" class="radio-but" value="Part-Time"> Agree
+                                                                                    <input type="radio" class="radio-but" value="Full-Time"> Disagree 
+                                                                                    <input type="radio" class="radio-but" value="Part-Time"> Strongly Disgree
+                                                                                </div>
+                                                                            </li>
+                                                                            <li>
+                                                                                <div class=" primary"></div>
+                                                                                <h4 class="m-t-5">29. The Library is well-stocked with relevant course textbooks, journals, etc.</h4>
+                                                                                <div class="text-md-right">
+                                                                                    <input type="radio" class="radio-but" value="Full-Time"> Strongly Agree 
+                                                                                    <input type="radio" class="radio-but" value="Part-Time"> Agree
+                                                                                    <input type="radio" class="radio-but" value="Full-Time"> Disagree 
+                                                                                    <input type="radio" class="radio-but" value="Part-Time"> Strongly Disgree
+                                                                                </div>
+                                                                            </li>
+                                                                            <li>
+                                                                                <div class="primary"></div>
+                                                                                <h4 class="m-t-5">30. Textbook(s) and/or other resources were provided to complement lectures</h4>
+                                                                                <div class="text-md-right">
+                                                                                    <input type="radio" class="radio-but" value="Full-Time"> Strongly Agree 
+                                                                                    <input type="radio" class="radio-but" value="Part-Time"> Agree
+                                                                                    <input type="radio" class="radio-but" value="Full-Time"> Disagree 
+                                                                                    <input type="radio" class="radio-but" value="Part-Time"> Strongly Disgree
+                                                                                </div>
+                                                                            </li>
+
+                                                                             <li>
+                                                                                <div class=" primary"></div>
+                                                                                <h4 class="m-t-5">31. Modern teaching aids such as Projectors and other Multi-Media devices were used</h4>
+                                                                                <div class="text-md-right">
+                                                                                    <input type="radio" class="radio-but" value="Full-Time"> Yes 
+                                                                                    <input type="radio" class="radio-but" value="Part-Time"> No
+                                                                                </div>
+                                                                            </li>
+                                                                           <li>
+                                                                                <div class=" primary"></div>
+                                                                                <h4 class="m-t-5">23. The Lecturer clearly presented ideas and concepts of topics</h4>
+                                                                                <div class="text-md-right">
+                                                                                    <input type="radio" class="radio-but" value="Full-Time"> Yes 
+                                                                                    <input type="radio" class="radio-but" value="Part-Time"> No
+                                                                                </div>
+                                                                            </li>
+                                                                            <li>
+                                                                                <div class=" primary"></div>
+                                                                                <h4 class="m-t-5">24. The Lecturer encouraged critical thinking</h4>
+                                                                                <div class="text-md-right">
+                                                                                    <input type="radio" class="radio-but" value="Full-Time"> Yes 
+                                                                                    <input type="radio" class="radio-but" value="Part-Time"> No
+                                                                                </div>
+                                                                            </li>
+                                                                            <li>
+                                                                                <div class="primary"></div>
+                                                                                <h4 class="m-t-5">25. The Lecturer delivered at an appropriate pace/speed</h4>
+                                                                                <div class="text-md-right">
+                                                                                    <input type="radio" class="radio-but" value="Full-Time"> Yes 
+                                                                                    <input type="radio" class="radio-but" value="Part-Time"> No
+                                                                                </div>
+                                                                            </li>
+                                                                            <li>
+                                                                                <div class="primary"></div>
+                                                                                <h4 class="m-t-5">35. How satisfied are you with teaching and learning of this course?</h4>
+                                                                                <div class="">
+                                                                                    <input type="radio" class="radio-but" Group="me" value="Full-Time"> Completely satisfied  
+                                                                                    <input type="radio" class="radio-but" Group="me" value="Part-Time"> Very satisfied
+                                                                                    <input type="radio" class="radio-but" Group="me" value="Full-Time"> Moderately satisfied 
+                                                                                    <input type="radio" class="radio-but" Group="me" value="Part-Time"> Very dissatisfied
+                                                                                    <input type="radio" class="radio-but" Group="me" value="Part-Time"> Completely dissatisfied
+
+                                                                                </div>
+                                                                            </li>
+
+                                                                             <li>
+                                                                                <div class=" primary"></div>
+                                                                                <h4 class="m-t-5">37. Lecturer’s strength(s): </h4>
+                                                                                <div class="">
+                                                                                    <textarea name="" id="" cols="174" rows="10"></textarea> 
+                                                                                </div>
+                                                                            </li>
+                                                                           <li>
+                                                                                <div class=" primary"></div>
+                                                                                <h4 class="m-t-5">38. Areas lecturer needs to improve or work on: </h4>
+                                                                                <div class="">
+                                                                                    <textarea name="" id="" cols="174" rows="10"></textarea> 
+                                                                                </div>
+                                                                            </li>
+                                                                            <li>
+                                                                                <div class=" primary"></div>
+                                                                                <h4 class="m-t-5">39. Please state any other comment(s)/suggestion(s): </h4>
+                                                                                <div class="">
+                                                                                    <textarea name="" id="" cols="174" rows="10"></textarea> 
+                                                                                </div>
                                                                             </li>
 
                                                                             <li>
-                                                                                
-                                                                                <a class="timeline-panel " href="#">
+                                                                            <a class="timeline-panel " href="#">
                                                                                    <div class="card-body text-center">
-                                                                            <asp:Button class="btn btn-primary" ID="Button2" runat="server" Text="Generate" />
+                                                                                <asp:Button class="btn btn-primary" ID="Button2" runat="server" Text="Generate" />
+                                                                                
+                                                                                <asp:Button class="btn btn-primary" ID="Button4" runat="server" Text="Print Report" />
                                                                             
-                                                                            <asp:Button class="btn btn-primary" ID="Button4" runat="server" Text="Print Report" />
-                                                                           
-                                                                        </div>
+                                                                            </div>
                                                                                 </a>
                                                                             </li>
                                                                         </ul>
